@@ -1,6 +1,6 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import {Link} from 'react-scroll'
+ 
 
 
 
@@ -13,6 +13,8 @@ export default function Home(props) {
         <p className='text-[#457b9d]'>Hi, my name is</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Shajwan Namiq</h1>
+
+      
 
           <h2 className='text-4xl sm:text-7xl font-bold text-[#b392ac]'>
             I'm Frontend Web Developer

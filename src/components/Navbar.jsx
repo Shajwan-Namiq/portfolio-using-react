@@ -95,7 +95,7 @@ function Navbar() {
 <ul>
   <li className='h-10  w-[160px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300 bg-[#0076B3]'>
     <a className='flex justify-between items-center w-full text-gray-300'
-    href="https://www.linkedin.com/in/shajwan-namiq-5bb90020b/" target={'_blank'} >
+    href="https://www.linkedin.com/in/shajwan-namiq-5bb90020b/" rel="noopener noreferrer" target="_blank" >
      Linkedin <FaLinkedin  size={30}/>
     </a>
   </li>
@@ -105,7 +105,7 @@ function Navbar() {
 
   <li className='h-10 w-[160px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300 bg-slate-800'>
     <a className='flex justify-between items-center w-full text-gray-300'
-    href="https://github.com/Shajwan-Namiq" target={'_blank'} >
+    href="https://github.com/Shajwan-Namiq" rel="noopener noreferrer" target="_blank" >
      Github <FaGithub  size={30}/>
     </a>
   </li>
@@ -114,14 +114,14 @@ function Navbar() {
 
   <li className='h-10 w-[160px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300 bg-red-600'>
     <a className='flex justify-between items-center w-full text-gray-300'
-    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target={'_blank'} >
+    href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" rel="noopener noreferrer" target="_blank" >
      Email <HiOutlineMail  size={30}/>
     </a>
   </li>
 
 <li className='h-10 w-[160px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300 bg-blue-600'>
     <a className='flex justify-between items-center w-full text-gray-300'
-    href="https://www.behance.net/shajwannamiq" target={'_blank'} >
+    href="https://www.behance.net/shajwannamiq" rel="noopener noreferrer" target="_blank" >
      Behance <FaBehance  size={30}/>
     </a>
   </li>
@@ -131,7 +131,7 @@ function Navbar() {
 
   <li className='h-10 w-[160px] flex justify-between items-center ml-[-100px]  hover:ml-[-10px] duration-300 bg-green-800'>
     <a className='flex justify-between items-center w-full text-gray-300'
-    href="" target={'_blank'} >
+    href="#" rel="noopener noreferrer" target="_blank" >
      Resume <BsFillPersonLinesFill  size={30}/>
     </a>
   </li>
