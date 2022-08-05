@@ -100,7 +100,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#292828]'>
-            <a
+            <a target="_blank"  rel="noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/Shajwan-Namiq'
             >
@@ -108,7 +108,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ae251b]'>
-            <a
+            <a   target="_blank"  rel="noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZXhHDFCpHCxssgZGcvGCFbPjtRcdzDhCQMzBrjzbPfBVvBWzGqDghnrVzfNgPcCQmcBML'
             >
@@ -116,8 +116,8 @@ const Navbar = () => {
             </a>
           </li>
 
-<li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1d1bae]'>
-            <a
+         <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1d1bae]'>
+            <a   target="_blank"  rel="noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.behance.net/shajwannamiq'
             >
@@ -126,7 +126,7 @@ const Navbar = () => {
           </li>
 
           <li className='w-[160px] h-[40px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4a7649]'>
-            <a
+            <a  target="_blank"  rel="noreferrer"
               className='flex justify-between items-center w-full text-gray-300'
               href='/'
             >
