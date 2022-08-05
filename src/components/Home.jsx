@@ -4,7 +4,7 @@ import { HiArrowNarrowRight } from 'react-icons/hi'
 
 
 
-
+//home page
 export default function Home(props) {
   return (
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
