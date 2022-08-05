@@ -28,12 +28,12 @@ export default function Work() {
                Form with Hooks <h1>in React JS</h1> 
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://rococo-form.netlify.app/'  target={'_blank'}>
+                <a href='https://rococo-form.netlify.app/'  >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Shajwan-Namiq/React-Project-Form' target={'_blank'}>
+                <a href='https://github.com/Shajwan-Namiq/React-Project-Form' >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -51,12 +51,12 @@ export default function Work() {
                 Resize Image in React JS 
               </span>
               <div className='pt-8 text-center'>
-                <a href='' target={'_blank'}>
+                <a href='\'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='https://github.com/Shajwan-Namiq/Resize-img-react' target={'_blank'}>
+                <a href='https://github.com/Shajwan-Namiq/Resize-img-react' >
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
