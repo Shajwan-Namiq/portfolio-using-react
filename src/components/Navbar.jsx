@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div>    
-        <input type="image" img src ={Logo} alt="photo" style={{width: '50px'}} />
+        <input type="image"   src={Logo} alt="photo" style={{width: '50px'}} />
       </div>
 
       {/* menu */}
