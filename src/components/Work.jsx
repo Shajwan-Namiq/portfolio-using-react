@@ -4,6 +4,8 @@ import realEstate from "../assets/realestate.jpg";
 import Resize from "../assets/resize.png";
 import Furniture from "../assets/furniture.png";
 import Calculator from "../assets/calculator.png";
+import Country from "../assets/country.png";
+
 
 export default function Work() {
   return (
@@ -114,21 +116,21 @@ export default function Work() {
           </div>
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${Country})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Search && Filter features
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://countries-web-react-3qt6.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Shajwan-Namiq/countries-web-react">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
