@@ -1,7 +1,6 @@
-import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
-import { Link } from 'react-scroll';
- 
+import React from "react";
+import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 
 //home page
 export default function Home() {
@@ -28,14 +27,14 @@ export default function Home() {
         <div>
           {/**text-white group border-2 px-6 py-3 flex items-center    hover:bg-[#457b9d] hover:border-[#457b9d] */}
 
-          <div className='w-48'>
+          <div className="w-40 cursor-pointer">
             <Link
               to="work"
-              className="text-white group border-2 px-6 py-3 flex items-center  bg-[#457b9d]  hover:bg-slate-900 hover:border-[#f2f2f2] "
+              className="text-white group border-2   py-3 flex justify-center items-center  bg-[#457b9d]  hover:bg-slate-900 hover:border-[#f2f2f2] "
             >
               View Work
               <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3 " />
+                <HiArrowNarrowRight className="ml-5 " />
               </span>
             </Link>
           </div>
