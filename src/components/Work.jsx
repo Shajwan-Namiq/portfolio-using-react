@@ -1,6 +1,5 @@
 import React from "react";
 import WorkImg from "../assets/form.png";
-import realEstate from "../assets/realestate.jpg";
 import Resize from "../assets/resize.png";
 import Furniture from "../assets/f.png";
 import Calculator from "../assets/c.png";
@@ -20,7 +19,6 @@ export default function Work() {
 
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-          
           <div
             style={{ backgroundImage: `url(${Bank})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -48,7 +46,7 @@ export default function Work() {
               </div>
             </div>
           </div>
- <div
+          <div
             style={{ backgroundImage: `url(${Country})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
@@ -118,7 +116,7 @@ export default function Work() {
               </div>
             </div>
           </div>
-          
+
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -166,11 +164,6 @@ export default function Work() {
               </div>
             </div>
           </div>
- 
-         
-
-
-
         </div>
       </div>
     </div>
