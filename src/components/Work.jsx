@@ -1,8 +1,8 @@
 import React from "react";
-import WorkImg from "../assets/form.png";
+import WorkImg from "../assets/WorkImg.png";
 import Resize from "../assets/resize.png";
 import Furniture from "../assets/f.png";
-import Calculator from "../assets/c.png";
+import GPT3 from "../assets/GPT3.png";
 import Country from "../assets/cn.png";
 import Bank from "../assets/Bank.png";
 
@@ -26,7 +26,7 @@ export default function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Bank Project-Design
+                Bank Project <br /> React JS & Tailwind CSS
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -46,45 +46,23 @@ export default function Work() {
               </div>
             </div>
           </div>
+
           <div
-            style={{ backgroundImage: `url(${Country})` }}
+            style={{ backgroundImage: `url(${GPT3})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 mx-5">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Search && Filter features
+                GPT3 Project   <br />React JS & Tailwind CSS & Next JS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://countries-web-react-3qt6.vercel.app/">
+                <a href="https://gpt-3-project-s3vv.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shajwan-Namiq/countries-web-react">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${Calculator})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                CALCULATOR
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://calculator-ql21i371l-furniture.vercel.app/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/Shajwan-Namiq/Calculator-new">
+                <a href="https://github.com/Shajwan-Namiq/GPT3_project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -100,15 +78,15 @@ export default function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Capstone Website-Furniture
+                Capstone Project <br /> React JS & Tailwind CSS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://my-capstone-app.vercel.app/">
+                <a href="https://rococo-form.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shajwan-Namiq/my-capstone-app">
+                <a href="https://github.com/Shajwan-Namiq/React-Project-Form">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -122,17 +100,18 @@ export default function Work() {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            <div className="opacity-0 group-hover:opacity-100 mx-5">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Form with Hooks <h1>in React JS</h1>
+                Metaversus Project React JS & Tailwind CSS & Framer Motion &
+                Next JS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://rococo-form.netlify.app/">
+                <a href="https://metaversus-project-jknd.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shajwan-Namiq/React-Project-Form">
+                <a href="https://github.com/Shajwan-Namiq/Metaversus_project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -157,6 +136,30 @@ export default function Work() {
                   </button>
                 </a>
                 <a href="https://github.com/Shajwan-Namiq/Resize-img-react">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${Country})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Search && Filter features
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://countries-web-react-3qt6.vercel.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Shajwan-Namiq/countries-web-react">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
