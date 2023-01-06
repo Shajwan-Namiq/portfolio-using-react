@@ -1,6 +1,6 @@
 import React from "react";
 import WorkImg from "../assets/WorkImg.png";
-import Resize from "../assets/resize.png";
+import Dashboard from "../assets/dashboard.png";
 import Furniture from "../assets/f.png";
 import GPT3 from "../assets/GPT3.png";
 import Country from "../assets/cn.png";
@@ -54,7 +54,8 @@ export default function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 mx-5">
               <span className="text-2xl font-bold text-white tracking-wider">
-                GPT3 Project   <br />React JS & Tailwind CSS & Next JS
+                GPT3 Project <br />
+                Tailwind CSS & Next JS
               </span>
               <div className="pt-8 text-center">
                 <a href="https://gpt-3-project-s3vv.vercel.app/">
@@ -102,8 +103,7 @@ export default function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100 mx-5">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Metaversus Project React JS & Tailwind CSS & Framer Motion &
-                Next JS
+                Metaversus Project <br /> Tailwind CSS & Framer Motion & Next JS
               </span>
               <div className="pt-8 text-center">
                 <a href="https://metaversus-project-jknd.vercel.app/">
@@ -121,21 +121,22 @@ export default function Work() {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Resize})` }}
+            style={{ backgroundImage: `url(${Dashboard})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Resize Image in React JS
+              <span className="text-2xl font-bold text-white tracking-wider mx-5">
+                Dashboard Project <br />
+                 Tailwind CSS & Next JS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://tangerine-cassata-bacbd7.netlify.app/">
+                <a href="https://dashboard-test-project-tau.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Shajwan-Namiq/Resize-img-react">
+                <a href="https://github.com/Shajwan-Namiq/Dashboard_Test_Project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -151,6 +152,7 @@ export default function Work() {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
+                 Countries Project <br />
                 Search && Filter features
               </span>
               <div className="pt-8 text-center">
